@@ -32,6 +32,7 @@ html, body {
 /* Títulos */
 .title {
     font-family: 'Glacial Indifference', sans-serif;
+    
     font-size: 2.5rem;
     margin-top: 10px;
 }
@@ -79,7 +80,7 @@ html, body {
 
 /* Espaciado entre secciones */
 .menu-items {
-    margin-bottom: 40px; /* Mayor separación del menú y la dirección */
+    margin-bottom: 140px; /* Mayor separación del menú y la dirección */
 }
 
 .direccion a {
