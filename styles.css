@@ -7,10 +7,16 @@ html, body {
     background-color: #022407;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
     text-align: center;
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
 }
 
 /* Contenedor principal */
@@ -31,8 +37,8 @@ html, body {
 
 /* Títulos */
 .title {
-    font-family: 'Glacial Indifference', sans-serif;
-    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
     font-size: 2.5rem;
     margin-top: 10px;
 }
@@ -40,6 +46,8 @@ html, body {
 .subtitle {
     font-size: 1.5rem;
     font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
+
     
 }
 
@@ -69,11 +77,14 @@ html, body {
 /* Dirección */
 /* Sección de Dirección */
 .direccion-container {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
     margin-top: 50px;
 }
 
 .direccion-container h4 {
     margin-bottom: 10px; /* Espacio debajo del título */
+    
     font-size: 1rem;
     font-weight: bold;
 }
