@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parrilla | Siete Sabores</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Contenedor del header con el botón de inicio y logo -->
+    <div class="header">
+        <!-- Logo centrado arriba -->
+        <img src="./imagenes/logo.png" alt="Logo Siete Sabores" class="small-logo">
+        
+        <!-- Botón de inicio debajo del logo -->
+        <a href="fuertes.html" class="btn-inicio">Inicio</a>
+    </div>
+    
+    <!-- Título reducido -->
+    <h1 class="title submenu-title">SIETE SABORES</h1>
+    <h2 class="subtitle">Parrilla</h2>
+    
+
+    <!-- Sección de Platos -->
+    <div class="container">
+        <div class="plato">
+            <img src="./imagenes/prueba/carpaccio-solomillo-queso-.jpg" alt="Plato 1" class="plato-img">
+            <h3>Nombre del Plato</h3>
+            <p><strong>$Precio</strong></p>
+            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
+            <div class="plato-detalle">
+                <p>Descripción detallada del plato.</p>
+            </div>
+            <a href="https://wa.me/+573016590938?text=Hola%20quiero%20el%20Nombre%20del%20Plato" class="btn-whatsapp">Pedir por WhatsApp</a>
+        </div>
+
+        <div class="plato">
+            <img src="./imagenes/prueba/carpaccio-solomillo-queso-.jpg" alt="Plato 1" class="plato-img">
+            <h3>Nombre del Plato</h3>
+            <p><strong>$Precio</strong></p>
+            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
+            <div class="plato-detalle">
+                <p>Descripción detallada del plato.</p>
+            </div>
+            <a href="https://wa.me/+573016590938?text=Hola%20quiero%20el%20Nombre%20del%20Plato" class="btn-whatsapp">Pedir por WhatsApp</a>
+        </div>
+
+        <div class="plato">
+            <img src="./imagenes/prueba/carpaccio-solomillo-queso-.jpg" alt="Plato 1" class="plato-img">
+            <h3>Nombre del Plato</h3>
+            <p><strong>$Precio</strong></p>
+            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
+            <div class="plato-detalle">
+                <p>Descripción detallada del plato.</p>
+            </div>
+            <a href="https://wa.me/+573016590938?text=Hola%20quiero%20el%20Nombre%20del%20Plato" class="btn-whatsapp">Pedir por WhatsApp</a>
+        </div>
+
+        <div class="plato">
+            <img src="./imagenes/prueba/carpaccio-solomillo-queso-.jpg" alt="Plato 1" class="plato-img">
+            <h3>Nombre del Plato</h3>
+            <p><strong>$Precio</strong></p>
+            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
+            <div class="plato-detalle">
+                <p>Descripción detallada del plato.</p>
+            </div>
+            <a href="https://wa.me/+573016590938?text=Hola%20quiero%20el%20Nombre%20del%20Plato" class="btn-whatsapp">Pedir por WhatsApp</a>
+        </div>
+
+        <!-- Puedes replicar esta estructura para más platos -->
+        
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2025 SIETE SABORES. Todos los derechos reservados.
+            <br>Emil Jiménez - Desarrollador Web 
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script JS -->
+    <script>
+        function toggleDetalle(btn) {
+            var detalle = btn.nextElementSibling;
+            detalle.style.display = detalle.style.display === "none" || detalle.style.display === "" ? "block" : "none";
+        }
+    </script>
+
+</body>
+</html>

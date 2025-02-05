@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glacial+Indifference&family=Josefin+Sans&display=swap');
+
+
+/* Estilos generales */
+html, body {
+    background-color: #022407;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal */
+.container {
+    flex: 1; /* Permite que el contenido crezca sin afectar el footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Títulos */
+.title {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.year {
+    font-size: 0.9rem;
+}
+
+/* Menú */
+.menu-items {
+    margin-top: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.menu-link {
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+.menu-link:hover {
+    color: #ffd700;
+}
+
+/* Dirección */
+/* Sección de Dirección */
+.direccion-container {
+    margin-top: 50px;
+}
+
+.direccion-container h4 {
+    margin-bottom: 10px; /* Espacio debajo del título */
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Espaciado entre secciones */
+.menu-items {
+    margin-bottom: 40px; /* Mayor separación del menú y la dirección */
+}
+
+.direccion a {
+    color: #2ba1f3;
+    text-decoration: none;
+}
+
+.direccion a:hover {
+    text-decoration: underline;
+}
+
+/* Contacto */
+.contacto img {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.contacto img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer siempre al fondo */
+footer {
+    background-color: #022407;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+/* Reducir tamaño del logo y títulos en submenús */
+.submenu-logo {
+    width: 80px; /* Ajusta el tamaño del logo */
+    margin-top: 10px;
+}
+
+.submenu-title {
+    font-size: 1.2rem; /* Reduce tamaño del título */
+}
+
+.submenu-subtitle {
+    font-size: 1rem; /* Reduce subtítulo */
+}
+
+/* Botón de Inicio más pequeño */
+.btn-inicio {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem; /* Tamaño de letra más pequeño */
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 6px 15px; /* Menos espacio interno */
+    border-radius: 8px; /* Bordes más redondeados pero pequeños */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-inicio:hover {
+    background-color: white;
+    color: #022407;
+}
+
+/* Reducir tamaño del título en submenús */
+.small-title {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+/* Estilos del logo más pequeño en submenús */
+.small-logo {
+    width: 80px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Contenedor del logo y botón de inicio */
+.header {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    margin-bottom: 10px;
+}
+
+
+.btn-inicio {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.btn-inicio:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Estilos para cada plato */
+.plato {
+    background-color: #01351f;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Imagen del plato */
+.plato-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Botón de detalles más pequeño */
+.btn-detalle {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ffd700;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.btn-detalle:hover {
+    background-color: #ffcc00;
+}
+
+/* Botón de WhatsApp más pequeño y directo */
+.btn-whatsapp {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.btn-whatsapp:hover {
+    background-color: darkgreen;
+}
+
+/* Detalles ocultos */
+.plato-detalle {
+    display: none;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+/* Contenedor del botón de Inicio */
+.inicio-container {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* Logo más pequeño y centrado */
+.small-logo {
+    width: 80px;
+   
+}
