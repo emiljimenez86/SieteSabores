@@ -5,6 +5,7 @@
 /* Estilos generales */
 html, body {
     background-color: #022407;
+    filter: brightness(1.0); /* Ajusta el brillo */
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
@@ -30,7 +31,7 @@ h4 {
 
 /* Logo */
 .logo {
-    width: 150px; /* Ajusta el tamaño del logo */
+    width: 90px; /* Ajusta el tamaño del logo */
     height: auto;
     margin-bottom: 10px;
 }
