@@ -32,6 +32,7 @@ h4 {
 /* Logo */
 .logo {
     width: 90px; /* Ajusta el tamaño del logo */
+    filter: brightness(0.7); /* Reduce el brillo al 70% */
     height: auto;
     margin-bottom: 10px;
 }
@@ -166,6 +167,7 @@ footer {
 
 /* Estilos del logo más pequeño en submenús */
 .small-logo {
+    filter: brightness(0.7); /* Reduce el brillo al 70% */
     width: 80px;
     margin: 10px auto;
     display: block;
