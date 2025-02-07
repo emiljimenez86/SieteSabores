@@ -4,8 +4,8 @@
 
 /* Estilos generales */
 html, body {
-    background-color: #022407;
-    filter: brightness(1.0); /* Ajusta el brillo */
+    background-color: #022407; /* Ajustar el color mañana con Juan Camilo */
+    filter: brightness(1.0); /* Ajustar el brillo mañana con Juan Camilo */
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
@@ -22,7 +22,7 @@ h4 {
 
 /* Contenedor principal */
 .container {
-    flex: 1; /* Permite que el contenido crezca sin afectar el footer */
+    flex: 1; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,7 +76,7 @@ h4 {
     color: #ffd700;
 }
 
-/* Dirección */
+
 /* Sección de Dirección */
 .direccion-container {
     font-family: "Josefin Sans", sans-serif;
@@ -123,7 +123,7 @@ footer {
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    margin-top: auto; /* Empuja el footer hacia abajo */
+    margin-top: auto; /* ojo Empujar el footer hacia abajo */
 }
 
 /* Reducir tamaño del logo y títulos en submenús */
@@ -213,7 +213,7 @@ footer {
     border-radius: 10px;
 }
 
-/* Botón de detalles más pequeño */
+/* Botón de detalles */
 .btn-detalle {
     display: block;
     margin: 5px auto;
@@ -232,7 +232,7 @@ footer {
     background-color: #ffcc00;
 }
 
-/* Botón de WhatsApp más pequeño y directo */
+/* Botón de WhatsApp*/
 .btn-whatsapp {
     display: block;
     margin: 5px auto;
